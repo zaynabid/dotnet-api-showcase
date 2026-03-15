@@ -159,8 +159,8 @@ ProductCatalogAPI/
 
 ### Prerequisites
 
-- [.NET 10 SDK]
-- [SQL Server 2025] (or SQLite)
+- .NET 10 SDK
+- SQLite
 - [Visual Studio 2022](https://visualstudio.microsoft.com/) or [VS Code](https://code.visualstudio.com/)
 
 ### 1. Clone the repository
