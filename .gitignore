@@ -1,0 +1,120 @@
+# ============================================================
+# .NET / ASP.NET Core
+# ============================================================
+
+## Build outputs
+bin/
+obj/
+out/
+
+## NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+!**/packages/repositories.config
+
+## Project user files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+## Visual Studio files
+.vs/
+*.rsuser
+*.vsp
+*.vspx
+*.sap
+
+## Rider / JetBrains
+.idea/
+*.sln.iml
+
+## VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+## Publish output
+publish/
+**/publish/
+
+## .NET local tools
+.config/dotnet-tools.json
+
+# ============================================================
+# Entity Framework Core
+# ============================================================
+
+## EF Core migration bundles
+efbundle
+efbundle.exe
+
+# ============================================================
+# ASP.NET Core / Runtime
+# ============================================================
+
+## App secrets
+**/appsettings.Development.json
+**/appsettings.Local.json
+**/secrets.json
+
+## Certificates
+*.pfx
+*.cer
+*.key
+*.pem
+
+## Local HTTPS dev cert
+*.p12
+
+# ============================================================
+# SQL Server
+# ============================================================
+
+## Local database files
+*.mdf
+*.ldf
+*.ndf
+
+# ============================================================
+# Logs & Temp
+# ============================================================
+
+logs/
+*.log
+*.tmp
+*.temp
+crash_dump/
+TestResults/
+
+# ============================================================
+# OS generated
+# ============================================================
+
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+## Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## Linux
+*~
+
+# ============================================================
+# Sensitive / Environment files
+# ============================================================
+
+.env
+.env.*
+!.env.example
